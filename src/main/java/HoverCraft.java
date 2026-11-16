@@ -1,2 +1,2 @@
-public class HoverCraft {
+public class HoverCraft extends Vehicle{
 }
