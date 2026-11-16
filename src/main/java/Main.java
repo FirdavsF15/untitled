@@ -11,11 +11,19 @@ public class Main {
 
         System.out.println("Using constructors: ");
 
+        System.out.println("Moped:");
+
         Moped slowRide = new Moped("Red", 1, 0, 5);
 
         System.out.println(slowRide.getColor());
         System.out.println(slowRide.getFuelCapacity());
 
+        System.out.println("\nCar:");
+
+        Car hondeezy = new Car("Black", 5, 1, 15);
+
+        System.out.println(hondeezy.getColor());
+        System.out.println(hondeezy.getNumberOfPassengers());
 
     }
 }
